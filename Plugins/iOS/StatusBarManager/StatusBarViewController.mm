@@ -1,6 +1,5 @@
 //
 //  StatusBariOS.mm
-//  Unity plugin for Firebase Remote notifications.
 //
 //  Created by KA YOU on 2016/06/23.
 //  Copyright (c) 2016年 Romeo Hua. All rights reserved.
@@ -9,8 +8,7 @@
 #error This file must be compiled with ARC. Either turn on ARC for the project or use -fobjc-arc flag
 #endif
 
-
-#include "UnityViewControllerBaseiOS.h"
+#include "UnityViewControllerBase.h"
 
 @interface StatusBarViewController : NSObject
 {
