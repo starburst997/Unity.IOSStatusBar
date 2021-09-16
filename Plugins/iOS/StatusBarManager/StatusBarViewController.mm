@@ -17,9 +17,8 @@
 
 @implementation StatusBarViewController
 
-static bool _show = true;
-
 // Got a crash if I changed those values?
+static bool _show = false;
 static UIStatusBarStyle _style = UIStatusBarStyleDefault;
 static UIStatusBarAnimation _animation = UIStatusBarAnimationSlide;
 
