@@ -17,9 +17,9 @@
 
 @implementation StatusBarViewController
 
-static bool _show = false;
-static UIStatusBarStyle _style = UIStatusBarStyleDefault;
-static UIStatusBarAnimation _animation = UIStatusBarAnimationSlide;
+static bool _show = true;
+static UIStatusBarStyle _style = UIStatusBarStyleLightContent;
+static UIStatusBarAnimation _animation = UIStatusBarAnimationNone;
 
 + (void) hideStatusBar: (BOOL)hide
 {
