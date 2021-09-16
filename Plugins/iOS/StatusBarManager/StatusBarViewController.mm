@@ -18,8 +18,10 @@
 @implementation StatusBarViewController
 
 static bool _show = true;
-static UIStatusBarStyle _style = UIStatusBarStyleLightContent;
-static UIStatusBarAnimation _animation = UIStatusBarAnimationNone;
+
+// Got a crash if I changed those values?
+static UIStatusBarStyle _style = UIStatusBarStyleDefault;
+static UIStatusBarAnimation _animation = UIStatusBarAnimationSlide;
 
 + (void) hideStatusBar: (BOOL)hide
 {
